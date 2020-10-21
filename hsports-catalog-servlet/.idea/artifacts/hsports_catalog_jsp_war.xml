@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hsports-catalog-jsp:war">
+    <output-path>$PROJECT_DIR$/../hsports-catalog-jsp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hsports-catalog-jsp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hsports-catalog-jsp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hsports-catalog-jsp:war exploded" />
+    </root>
+  </artifact>
+</component>

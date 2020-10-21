@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
-@WebFilter(urlPatterns = "/*", asyncSupported = true)
+@WebFilter(urlPatterns = "/*")
 public class ParameterLoggingFilter implements Filter {
     public void destroy() {
     }

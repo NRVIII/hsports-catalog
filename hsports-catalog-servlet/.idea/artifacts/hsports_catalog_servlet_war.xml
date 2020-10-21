@@ -9,7 +9,6 @@
     </properties>
     <root id="archive" name="hsports-catalog-servlet-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="hsports-catalog-servlet:war exploded" />
-      <element id="dir-copy" path="$PROJECT_DIR$/src/main/webapp" />
     </root>
   </artifact>
 </component>
